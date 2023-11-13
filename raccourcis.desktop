@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Raccourcis
+Comment=Raccourcis vers mes programmes
+Exec=xdg-open "/media/jaenne/Donnees/Mes doc/projet_en_cours/raccourcis_file.html"
+Icon=/media/jaenne/Donnees/Mes doc/projet_en_cours/bunny256.png
+Terminal=false
+StartupNotify=true
+
+
+# a placer dans /.local/share/applications

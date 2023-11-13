@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>raccourcis</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <h1>Mes raccourcis</h1>
+
+    <div class="container">
+        <div class="col">
+            <h2>Mail :</h2>
+            <h3>Cliquer pour copier</h3>
+            <p id="adresse-email" class="lien-bouton" onclick="copierDansPressePapier('adresse-email', 'laurie.boissay2023@campus-eni.fr')">E-mail</p>
+        </div>
+    
+        <div class="col">
+            <h2>Girafe :</h2>
+            <h3>Cliquer pour copier</h3>
+            <p id="lancer-girafe" class="lien-bouton" onclick="copierDansPressePapier('lancer-girafe', './android-studio/bin/studio.sh')">Lancer Girafe</p>
+
+            <p id="nettoyer-gradlew" class="lien-bouton" onclick="copierDansPressePapier('nettoyer-gradlew', 'cd /home/jaenne/AndroidStudioProjects/interface_2 && ./gradlew clean')">Nettoyer Gradlew</p>
+            
+            <p id="construire-gradlew" class="lien-bouton" onclick="copierDansPressePapier('construire-gradlew', 'cd /home/jaenne/AndroidStudioProjects/interface_2 && ./gradlew build')">Construire Gradlew</p>
+        </div>
+
+        <div class="col">
+            <h2>Apache :</h2>
+            <h3>Cliquer pour copier</h3>
+            <p id="lancer-apache" class="lien-bouton" onclick="copierDansPressePapier('lancer-apache', 'sudo systemctl start apache2')">Lancer Apache</p>
+
+            <p id="arreter-apache" class="lien-bouton" onclick="copierDansPressePapier('arreter-apache', 'sudo systemctl stop apache2')">Arrêter Apache</p>
+
+            <p id="redemarrer-apache" class="lien-bouton" onclick="copierDansPressePapier('redemarrer-apache', 'sudo systemctl restart apache2')">Redémarrer Apache</p>
+            
+        </div>
+
+        <div class="col">
+            <h2>UMLet :</h2>
+            <h3>Cliquer pour copier</h3>
+            <p id="lancer-umlet" class="lien-bouton" onclick="copierDansPressePapier('lancer-umlet', 'cd /home/jaenne/Documents/Umlet && ./umlet.sh')">Lancer UMLet</p>
+        </div>
+
+        <div class="col">
+            <h2>Dossiers utiles :</h2>
+            <h3>Cliquer pour ouvrir</h3>
+            <a href="file:///media/jaenne/Donnees/Mes%20doc/jouer_en_coeur_d_essonne_app" class="lien-bouton" target="_blank">PayHub</a>
+            <a href="file:///media/jaenne/Donnees/Mes%20doc/Formation" class="lien-bouton" target="_blank">Formation</a>
+        </div>
+
+        <div class="col">
+            <h2>Site en dév : </h2>
+            <h3>Cliquer pour afficher</h3>
+            <a href="http://localhost/playHub" class="lien-bouton" target="_blank">PlayHub</a>
+        </div>
+
+        <div class="col">
+            <h2>PHP My Admin : </h2>
+            <h3>Cliquer pour afficher</h3>
+            <a href="http://localhost/phpmyadmin/" class="lien-bouton" target="_blank">PHPMyAdmin</a>
+        </div>
+
+        <div class="col">
+            <h2>Sites utiles : </h2>
+            <h3>Cliquer pour afficher</h3>
+            <a href="https://github.com/login" class="lien-bouton" target="_blank">GitHub</a>
+            <a href="https://app.sowesign.com/login" class="lien-bouton" target="_blank">SoWeSign</a>
+            <a href="https://www.eni-training.com/Connect/Campus/login.aspx?cfgBdd=eni-ecole&cfgsite=CampusEnLigne&idlng=1" class="lien-bouton" target="_blank">Portail ENI</a>
+            <a href="https://www.w3c.fr/" class="lien-bouton" target="_blank">W3c</a>
+            <a href="https://laurie-boissay.github.io/" class="lien-bouton" target="_blank">Mon site</a>
+            <a href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQGjnYr31Jup9wAAAYvI27mIxopGmERpc1akQT-yOjkP3f2ErpqSGvbr620gawutcqUsJr8r3lrAFDu68ctORXfTrClXKStcDO0WX3Wj4HKXcuNEmbGfmuz3hlC6V4DQA-IBWOk=&original_referer=https://duckduckgo.com/&sessionRedirect=https%3A%2F%2Ffr.linkedin.com%2Fin%2Flaurie-boissay" class="lien-bouton" target="_blank">LinkedIn</a>
+        </div>
+
+    </div>
+    
+</body>
+</body>
+</html>
